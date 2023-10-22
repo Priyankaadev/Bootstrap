@@ -1,5 +1,6 @@
 body {
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-color: black;
 }
 
 .signin {
@@ -23,6 +24,7 @@ body {
     filter: brightness(.3);
     position: absolute;
     z-index: -1;
+
 }
 
 
@@ -42,6 +44,7 @@ body {
 
 .navbar {
     top: 8px;
+    
 }
 
 .herobtn {
@@ -60,6 +63,10 @@ body {
     margin-top: 10rem;
 
 
+}
+.content-1{
+    color: white;
+    margin-top: 4rem;
 }
 
 .content h1 {
@@ -117,11 +124,8 @@ body {
     font-weight: 800;
 }
 
-.foot{
-    border-top:10px solid rgb(40, 39, 39);
-    height: 60vh;
-    width: 100vw;
-    background-color: black;
+.foot {
+    border-top: 10px solid rgb(40, 39, 39);
 }
 
 .col-5 p {
@@ -187,7 +191,19 @@ body {
     align-items: center;
     background-color: black;
     border-top: 10px solid rgb(40, 39, 39);
-    
+    margin-bottom: 25rem;
+
+}
+.card{
+    margin-top: 18rem;
+    border: solid 1px white;
+ 
+}
+.card-body{
+    margin: 25px;
+}
+.img-fluid{
+    margin: 25px;
 }
 
 .accordion-button {
@@ -220,16 +236,19 @@ body {
 .accordion-item {
     color: white;
     background-color: rgb(40, 39, 39);
-
+    font-size: 25px;
 }
-#flush{
+
+#flush {
     background-color: rgb(40, 39, 39);
 
 }
-.container{
-    background-color: black;
+
+.container {
+    
     color: rgb(221, 219, 219);
 }
-.row{
+
+.row {
     background-color: black;
 }
