@@ -1,0 +1,235 @@
+body {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.signin {
+    background-color: rgb(241, 30, 30);
+    color: white;
+    width: auto;
+    font-weight: 600;
+}
+
+.signin:hover {
+    background-color: rgb(217, 44, 44);
+    color: white;
+}
+
+.bg-img {
+    height: 95vh;
+    width: 100vw;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    filter: brightness(.3);
+    position: absolute;
+    z-index: -1;
+}
+
+
+.dropdown {
+    color: white;
+    margin-right: 30px;
+
+}
+
+.item1 {
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    margin-left: 3rem;
+}
+
+.navbar {
+    top: 8px;
+}
+
+.herobtn {
+    background-color: rgb(241, 30, 30);
+}
+
+.herobtn:hover {
+    background-color: rgb(217, 44, 44);
+}
+
+.content {
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+    color: white;
+    margin-top: 10rem;
+
+
+}
+
+.content h1 {
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+
+.content p {
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+.content h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+
+}
+
+.input-group {
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 25rem;
+    padding: 0.7rem;
+    margin: 1rem;
+}
+
+.s2 {
+    margin-top: 10%;
+    background-color: black;
+    height: 80vh;
+    border-top: 11px solid rgb(78, 78, 78);
+}
+
+.s3,
+.s4,
+.s5 {
+    background-color: black;
+    height: 100vh;
+    border-top: 10px solid rgb(78, 78, 78);
+}
+
+.col-5 {
+    justify-content: center;
+    align-self: center;
+    color: white;
+}
+
+.col-5 h2 {
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+
+.foot{
+    border-top:10px solid rgb(40, 39, 39);
+    height: 60vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.col-5 p {
+    font-size: 1.5rem;
+}
+
+.tv,
+.tv1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.tv-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    height: 470px;
+}
+
+.s2 tv video {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 94%;
+    z-index: -1;
+}
+
+.s4 tv1 video {
+    position: absolute;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.s4 .tv-border {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    height: 530px;
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z'/%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-x-lg' viewBox='0 0 16 16'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/%3E%3C/svg%3E");
+}
+
+.faq {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-top: 10px solid rgb(40, 39, 39);
+    
+}
+
+.accordion-button {
+    font-size: 25px;
+    background-color: rgb(40, 39, 39);
+    padding: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.accordion-header .accordion-button {
+    background-color: rgb(40, 39, 39);
+    color: white;
+}
+
+
+.head {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#accordionFlushExample {
+    background-color: rgb(40, 39, 39);
+    width: 70vw;
+}
+
+.accordion-item {
+    color: white;
+    background-color: rgb(40, 39, 39);
+
+}
+#flush{
+    background-color: rgb(40, 39, 39);
+
+}
+.container{
+    background-color: black;
+    color: rgb(221, 219, 219);
+}
+.row{
+    background-color: black;
+}
